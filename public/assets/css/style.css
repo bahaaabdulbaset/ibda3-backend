@@ -1,0 +1,295 @@
+.body{
+    margin: 0px;
+}
+
+.line {
+	background-color: rgb(58, 173, 230);
+	width: 50px;
+	height: 5px;
+	display: block;
+	margin: 10px auto auto;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+.pic-slide{
+	background:url(../images/header-side.jpg)no-repeat;
+	/*width: 50%;*/
+	margin: 0px;
+	height: 730px;
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*background-position: left;*/
+}
+
+
+
+
+
+.we-offer{
+	background:url(../images/we-offer.png)no-repeat;
+	width: 100%;
+	margin: 0px;
+	height: 50%;
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*background-position: left;*/
+}
+
+
+
+
+.card-hover:hover{
+
+	box-shadow:0 0 11px rgba(33,33,33,.2);
+
+}
+
+
+.color-me{
+	color: #3AADE6;
+}
+
+.font-cairo{
+
+	font-family: 'Cairo', sans-serif;
+	font-weight: bold;
+
+
+}
+
+
+.our-client {
+	background: url(../images/Untitled-3.jpg)no-repeat ;
+}
+
+
+.footer{
+
+	background: url(../images/footer2.jpg)no-repeat ;
+
+	height: auto;
+}
+
+
+.color_white{
+	color: #fff;
+}
+
+
+
+.pic-windows {
+    background: url(../images/bg30-Ar1web.gif) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mainslider{
+	background-color: #3aade6;
+	height: 500px;
+
+
+}
+
+.skilslider{
+	width: 600px;
+	height: 500px;
+    margin: auto;
+	background-color:red;
+}
+
+
+.item{
+	text-align: center;
+	line-height: 500px;
+}
+
+
+
+
+.color_black{
+    color: #000;
+
+}
+
+.card-color{
+background-color: #23adc9;
+}
+
+
+
+.pic-article{
+    background:url(../images/articles1.jpg)no-repeat;
+    width: 100%;
+
+}
+
+
+
+
+
+
+.details-bg{
+    background:url(../images/details-bg.png)no-repeat;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-carousel .my-card {
+    height: 18rem;
+    width: 12rem;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    /*background: #2e5266;*/
+    /*background: linear-gradient(to top, #2e5266, #6e8898);*/
+    transition: 1s;
+}
+
+.card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    border-radius: 100%;
+    /*background-color: rgba(0,0,0,0.3);*/
+    /*bottom: -1rem;*/
+    /*-webkit-filter: blur(4px);*/
+    /*filter: blur(4px);*/
+}
+
+.card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+.card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+
+
+
+
+.card-carousel .my-card:nth-child(0):before {
+    content: '0';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+header2020-navbar-master {
+    position: relative;
+    /* z-index: 49; */
+    color: #fff;
+    background-color: #000;
+
+}
+
+
+
